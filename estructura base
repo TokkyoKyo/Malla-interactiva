@@ -1,0 +1,19 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Malla Interactiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Malla Interactiva</h1>
+    <div id="malla-container">
+        <div class="ramo" onclick="mostrarInfo('Ramo 1')">Ramo 1</div>
+        <div class="ramo" onclick="mostrarInfo('Ramo 2')">Ramo 2</div>
+        <!-- Agrega más ramos aquí -->
+    </div>
+    <div id="info-box"></div>
+    <script src="script.js"></script>
+</body>
+</html>
