@@ -1,0 +1,9 @@
+// script.js
+function mostrarInfo(nombreRamo) {
+    const info = {
+        "Ramo 1": "Descripción del Ramo 1",
+        "Ramo 2": "Descripción del Ramo 2",
+        // agrega más aquí
+    };
+    document.getElementById("info-box").innerText = info[nombreRamo] || "Sin información disponible.";
+}
