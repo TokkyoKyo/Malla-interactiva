@@ -9,8 +9,8 @@
 <body>
     <h1>Malla Interactiva</h1>
     <div id="malla-container">
-        <div class="ramo" onclick="mostrarInfo('Ramo 1')">Ramo 1</div>
-        <div class="ramo" onclick="mostrarInfo('Ramo 2')">Ramo 2</div>
+        <div class="ramo" onclick="mostrarInfo('Filosofía')">Filosofía</div>
+        <div class="ramo" onclick="mostrarInfo('Psicología')">Psicología</div>
         <!-- Agrega más ramos aquí -->
     </div>
     <div id="info-box"></div>
